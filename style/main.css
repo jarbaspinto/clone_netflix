@@ -94,21 +94,29 @@ header nav a:hover{
     width: 70%;
 }
 
-.posters{
-    color: greenyellow;
+@font-face {
+    font-family: one-piece;
+    src: url(font/one-piece-font.woff);
 
-    @font-face {
-        font-family: 'One Piece';
-        src: url('one-piece-font.ttf') format('truetype');
-      }
-    
-        font-family: 'One Piece', sans-serif;
+}
+.sub-titulo{
+    color: var(--branca);
+    font-family: one-piece;
+    font-size: 40px;
+    margin-left: 20px;
 }
 
 .box-poster{
     height: 100%;
     width: 100%;
     display: block;
+    
+}
+
+.item:hover{
+    background-color: rgba(0,0,0,.50);
+    height: 110%;
+    width: 110%;
 }
 
 .carrosel-posters{
