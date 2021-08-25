@@ -6,11 +6,15 @@ $('.owl-carousel').owlCarousel({
         0:{
             items:1
         },
-        600:{
-            items:3
+        400:{
+            items:2
+
         },
-        1000:{
-            items:5
+        800:{
+            items:4
+        },
+        1200:{
+            items:8
         }
     }
 })
