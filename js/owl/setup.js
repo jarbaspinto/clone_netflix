@@ -1,3 +1,7 @@
+function clicouSobre(){
+    alert("clicou")
+}
+
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
